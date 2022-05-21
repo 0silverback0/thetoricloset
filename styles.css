@@ -1,0 +1,30 @@
+
+header{
+    background-image: url('https://bit.ly/3ME72qw');
+    background-size: cover;
+    height: 300px;
+    text-align: center;
+}
+
+h1{
+    position: relative;
+    top: 30%;
+    color: blue;
+    font-size: 100px;
+}
+
+.cart{
+    position: relative;
+    top: 10px;
+    padding-right: 2%;
+}
+
+.cart-bounce{
+    animation: bounce 2s;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {transform: translateY(0);} 
+    40% {transform: translateY(-30px);} 
+    60% {transform: translateY(-15px);} 
+ } 
